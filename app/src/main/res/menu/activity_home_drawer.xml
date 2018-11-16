@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="LSM">
+    </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/about_us"
+            android:icon="@mipmap/ic_menu_about"
+            android:title="Acerca de..."
+            />
+        <item
+            android:id="@+id/cafe"
+            android:icon="@mipmap/ic_menu_cafe"
+            android:title="Invitanos un café"
+            />
+    </group>
+
+</menu>
